@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.darling.mimototaxi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="driver.MapDriverActivity"></activity>
+        <activity android:name="client.MapClientActivity" />
+        <activity android:name="driver.RegisterDriverActivity" />
+        <activity
+            android:name="driver.LoginActivity2"
+            android:parentActivityName="driver.SelectOptionAuthenticActivity2" />
+        <activity
+            android:name="client.RegistroActivity2"
+            android:parentActivityName="driver.SelectOptionAuthenticActivity2" />
+        <activity
+            android:name="driver.SelectOptionAuthenticActivity2"
+            android:parentActivityName="driver.MainActivity" />
+        <activity android:name="driver.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

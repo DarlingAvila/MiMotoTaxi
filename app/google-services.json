@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "233821914999",
+    "project_id": "mimototaxi-ac79f",
+    "storage_bucket": "mimototaxi-ac79f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233821914999:android:b82504d9fa8774e8128372",
+        "android_client_info": {
+          "package_name": "com.darling.mimototaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233821914999-sngh3jvuotqf2t0frge9h9otghjj9ip6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darling.mimototaxi",
+            "certificate_hash": "ee81263f6fa3c927495a8fbb48d0ef3c0d6519eb"
+          }
+        },
+        {
+          "client_id": "233821914999-8lc0hol55jrc60g806qnadg9eq6vend6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeQaZM7_5IuguGQc_zv5WI4XpFEIXZIwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233821914999-8lc0hol55jrc60g806qnadg9eq6vend6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
