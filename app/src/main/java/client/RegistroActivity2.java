@@ -19,8 +19,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import dmax.dialog.SpotsDialog;
-import driver.MapDriverActivity;
-import driver.RegisterDriverActivity;
 import includes.MyToolbar;
 import models.Client;
 import providers.AuthProvider;

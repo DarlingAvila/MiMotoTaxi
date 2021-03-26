@@ -1,4 +1,4 @@
-package driver;
+package activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import com.darling.mimototaxi.R;
 
 import client.RegistroActivity2;
+import driver.RegisterDriverActivity;
 
 
 public class SelectOptionAuthenticActivity2 extends AppCompatActivity {

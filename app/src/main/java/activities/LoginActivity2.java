@@ -1,4 +1,4 @@
-package driver;
+package activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,8 +22,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import client.MapClientActivity;
-import client.RegistroActivity2;
 import dmax.dialog.SpotsDialog;
+import driver.MapDriverActivity;
 import includes.MyToolbar;
 
 public class LoginActivity2 extends AppCompatActivity {

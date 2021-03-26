@@ -47,7 +47,10 @@ dependencies {
     }
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
 
 }
 

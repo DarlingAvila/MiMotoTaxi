@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@color/colorPrimary"
-    tools:context="driver.SelectOptionAuthenticActivity2">
+    tools:context="activities.SelectOptionAuthenticActivity2">
 
     <include layout="@layout/action_bar_tollbar" />
 

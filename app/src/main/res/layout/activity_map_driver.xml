@@ -7,11 +7,16 @@
     android:fitsSystemWindows="true"
     tools:context="driver.MapDriverActivity">
 
-    <TextView
+    <include layout="@layout/action_bar_tollbar">
+
+    </include>
+
+    <fragment
+        android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mapa del Conductor">
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        >
 
-    </TextView>
-
+    </fragment>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

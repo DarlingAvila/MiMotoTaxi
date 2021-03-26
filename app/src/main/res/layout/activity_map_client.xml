@@ -7,11 +7,17 @@
     android:fitsSystemWindows="true"
     tools:context="client.MapClientActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mapa del Cliente">
+    <include layout="@layout/action_bar_tollbar">
 
-    </TextView>
+    </include>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    </fragment>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

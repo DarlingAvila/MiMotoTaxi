@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,13 +17,10 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import client.RegistroActivity2;
 import dmax.dialog.SpotsDialog;
 import includes.MyToolbar;
-import models.Client;
 import models.Driver;
 import providers.AuthProvider;
-import providers.ClientProvider;
 import providers.DriverProvider;
 
 public class RegisterDriverActivity extends AppCompatActivity {
@@ -52,9 +48,11 @@ public class RegisterDriverActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_driver);
 
-        MyToolbar.show(this, "Registrar conductor",true);
+        MyToolbar.show(this, "Registrar de conductor",true);
+
         mAuthProvider = new AuthProvider();
         mDriverProvider = new DriverProvider();
+
         mDialog = new SpotsDialog.Builder().setContext(RegisterDriverActivity.this).setMessage("Espere un momento").build();
 
 
